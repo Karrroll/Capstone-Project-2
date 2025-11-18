@@ -18,7 +18,7 @@
   --smaller-font: 0.8em;
 
   --border-radius-sm: 0.75rem;
-  --border-radius: 2rem;
+  --border-radius-md: 2rem;
   --rounded-full: 50%;
 }
 /* --------------------------------------------------------------------- */
@@ -70,7 +70,7 @@
 
 .shadow-dark {
   box-shadow: var(--shadow-color-dark);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-md);
 }
 
 .horizontal-divider {
