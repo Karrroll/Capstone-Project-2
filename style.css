@@ -11,9 +11,9 @@
   --bg-color-secondary-header: #F9F7F7;
   --bg-color-secondary-footer: #6195C5;
 
-  --shadow-color-dark: 5px 10px 50px rgba(0,0,0,.2);
+  --shadow-color-dark: 0.3125rem 0.625rem 3.125rem rgba(0, 0, 0, 0.2);
 
-  --bg-color-devider-dark: #000000;
+  --border-color-dark: #000000;
 
   --smaller-font: 0.8em;
 
@@ -36,8 +36,8 @@
 }
 
 #header img {
-  width: 175px;
-  height: 175px;
+  width: 10.9375rem; /* 175px */
+  height: 10.9375rem;
   border-radius: var(--rounded-full);
   object-fit: scale-down;
   background-color: var(--bg-color-primary);
@@ -74,11 +74,11 @@
 }
 
 .horizontal-divider {
-  border: 6px dotted var(--bg-color-devider-dark);
+  border: 0.375rem dotted var(--border-color-dark); /* 1px line width */
   border-bottom: none;
   width: 25%;
 }
 
 .vertical-divider {
-  border-left: 1px solid var(--bg-color-devider-dark);
+  border-left: 0.0625rem solid var(--border-color-dark); /* 1px line width */
 }
