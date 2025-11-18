@@ -43,6 +43,21 @@
   background-color: var(--bg-color-primary);
 }
 
+.feature-icon-img {
+  height: 2.1875rem; /* 35px */
+  width: auto;
+}
+
+.footer-icon-img {
+  height: 1.875rem; /* 30px */
+  width: auto;
+}
+
+.contact-icon-img {
+  height: 1.25rem; /* 20px */
+  width: auto;
+}
+
 .smaller-font {
   font-size: var(--smaller-font);
 }
